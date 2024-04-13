@@ -1,1 +1,4 @@
-spring.application.name=paypal-integration
+paypal:
+  client-id: <client_id>
+  client-secret: <client_secret>
+  mode: sandbox # `sandbox` for testing and `live` for Production
